@@ -1,0 +1,24 @@
+-> VAR names:
+>>>player
+>>>zombie
+>>>cutscene (cutscene de inicio, cena do vulto)
+>>>sword
+>>>shield
+>>>boss
+
+-> functions (PLAYER.js)
+>>>move
+>>>atack
+>>>defend
+>>>runnaway
+
+-> functions (SKETCH.js)
+>>>gameState
+>>>preload
+>>>canvas(resize)
+
+-> functions (GAME.js)
+>>>if para runnaway
+>>>gameover
+>>>getItens
+>>>getHurt

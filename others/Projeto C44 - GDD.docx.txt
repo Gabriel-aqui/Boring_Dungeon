@@ -1,0 +1,92 @@
+﻿GAME DESIGN DOCUMENT - GDD
+
+
+
+
+
+
+NOME DO JOGO:
+
+
+TEMA:
+
+
+
+
+REFERENCIAS:
+(jogos, filmes, séries, quadrinhos)
+
+
+
+
+PLATAFORMA:
+
+
+
+
+OBJETIVO:
+
+
+
+
+PERSONAGEM PRINCIPAL:
+
+
+
+
+PERSONAGENS SECUNDÁRIOS:
+(jogáveis / não jogáveis)
+
+
+
+
+MECÂNICAS BÁSICAS:
+(movimentos dos jogadores)
+
+
+AMBIENTE:
+
+
+
+
+
+
+
+
+ESTÓRIA DO JOGO:
+
+
+DESCRIÇÃO GERAL DO JOGO:
+
+
+RESUMO / PITCH:
+
+
+
+
+
+
+
+
+JOGABILIDADE:
+        REGRAS:
+        DIFICULDADE:
+        ADAPTABILIDADE:
+        ELEMENTOS ACASO:
+        ELEMENTOS HABILIDADE:
+        FEEDBACK:
+
+
+
+
+
+
+
+
+SONS
+
+
+IMAGENS
+
+
+ANIMAÇÕES

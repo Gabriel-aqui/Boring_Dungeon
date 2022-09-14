@@ -1,0 +1,10 @@
+objetivo: passar o labirinto
+regras: não ser atingido, pegar itens
+equilibrio: semidificil
+história: um personagem caiu em um labirinto subterraneo correndo atrás de um vulto misterioso
+feedback:sangue na tela ao hit, mostrar a direção que tem que ir
+adaptatividade:conforme o tempo + zumbis e mumias + bizarro
+ambiente:em baixo da terra em uma mina
+mecanicas:wasd, deslizes, fade de sombra na direita e esquerda
+npcs: mumias, zumbis e o vulto
+aleatorio: spawn, espada, arco
