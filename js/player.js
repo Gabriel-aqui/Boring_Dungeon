@@ -1,6 +1,6 @@
 class Player {
    constructor() {
-      this.yPos = 30
-      this.xPos = 100
+      this.yPos = 0
+      this.xPos = 0
    }
 }
