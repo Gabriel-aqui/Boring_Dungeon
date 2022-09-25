@@ -47,25 +47,13 @@ function setup() {
   chao = createSprite(width / 2, height, width, 1)
   leftWall = createSprite(0, height / 2, 1, height)
   rightWall = createSprite(width, height / 2, 1, height)
-  parede1 = createSprite(0, 50, 3, 50);
-  parede2 = createSprite(190, 260, 250, 3);
-  parede3 = createSprite(67, 145, 3, 50);
-  parede4 = createSprite(67, 235, 3, 50);
-  parede5 = createSprite(313, 145, 3, 50);
-  parede6 = createSprite(313, 235, 3, 50);
-  parede7 = createSprite(41, 170, 50, 3);
-  parede8 = createSprite(41, 210, 50, 3);
-  parede9 = createSprite(337, 210, 50, 3);
-  parede10 = createSprite(337, 170, 50, 3);
-  parede11 = createSprite(18, 190, 3, 40);
-  parede12 = createSprite(361, 190, 3, 40);
-  parede13 = createSprite(361, 190, 3, 40);
-  parede14 = createSprite(361, 190, 3, 40);
-  parede15 = createSprite(361, 190, 3, 40);
-  parede16 = createSprite(361, 190, 3, 40);
-  parede17 = createSprite(361, 190, 3, 40);
-  parede18 = createSprite(361, 190, 3, 40);
-  parede19 = createSprite(361, 190, 3, 40);
+  parede1 = createSprite(500, 100, 3, 500);
+  parede2 = createSprite(990, 200, 990, 3);
+  parede3 = createSprite(607, 605, 3, 550);
+  parede4 = createSprite(423, 475, 3, 800);
+  parede5 = createSprite(700, 403, 3, 410);
+  parede6 = createSprite(170, 75, 500, 3);
+  
   playerSprite = createSprite(100, 30)
   playerSprite.addAnimation("playerImage", player)
   playerSprite.addAnimation("player2Image", player2)
@@ -86,6 +74,12 @@ function draw() {
   playerSprite.bounceOff(chao)
   playerSprite.bounceOff(leftWall)
   playerSprite.bounceOff(rightWall)
+  playerSprite.bounceOff(parede1);
+  playerSprite.bounceOff(parede2);
+  playerSprite.bounceOff(parede3);
+  playerSprite.bounceOff(parede4);
+  playerSprite.bounceOff(parede5);
+  playerSprite.bounceOff(parede6);
 
   if (keyIsDown(UP_ARROW)) {
     playerSprite.position.y -= 7
